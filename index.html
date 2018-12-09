@@ -6,10 +6,10 @@
 
 
 <html class="theme-next pisces use-motion" lang="zh-Hans">
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
 
 
@@ -20,8 +20,8 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -40,7 +40,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -48,9 +48,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,16 +79,17 @@
 
 
 
-<meta name="description" content="iOS">
+<meta name="description" content="移动开发">
+<meta name="keywords" content="iOS HTML">
 <meta property="og:type" content="website">
 <meta property="og:title" content="wangpo的个人博客">
 <meta property="og:url" content="https://po1987.wang/index.html">
 <meta property="og:site_name" content="wangpo的个人博客">
-<meta property="og:description" content="iOS">
+<meta property="og:description" content="移动开发">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="wangpo的个人博客">
-<meta name="twitter:description" content="iOS">
+<meta name="twitter:description" content="移动开发">
 
 
 
@@ -98,7 +99,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"right","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -118,7 +119,7 @@
 
 
 
-  <link rel="canonical" href="https://po1987.wang/">
+  <link rel="canonical" href="https://po1987.wang/"/>
 
 
 
@@ -136,7 +137,7 @@
 
 </head>
 
-<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -147,13 +148,13 @@
   page-home">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
 
     <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
+      <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">wangpo的个人博客</span>
         <span class="logo-line-after"><i></i></span>
@@ -183,7 +184,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
           </a>
@@ -193,7 +194,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
           </a>
@@ -203,7 +204,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
             分类
           </a>
@@ -213,9 +214,19 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -223,27 +234,51 @@
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
             关于
           </a>
         </li>
       
-        
+
+      
         <li class="menu-item menu-item-search">
-          <a href="/search/" rel="section">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
             
-              <i class="menu-item-icon fa fa-fw fa-search"></i> <br>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
             
             搜索
           </a>
         </li>
       
-
-      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
   
 </nav>
 
@@ -267,20 +302,20 @@
   
   
 
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/12/09/test/">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/10/12/技术贴传送门/">
 
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wangpo">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="wangpo的个人博客">
     </span>
 
@@ -291,7 +326,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/12/09/test/" itemprop="url">test</a></h1>
+                <a class="post-title-link" href="/2018/10/12/技术贴传送门/" itemprop="url">技术贴传送门</a></h1>
         
 
         <div class="post-meta">
@@ -303,8 +338,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-09T16:27:51+08:00">
-                2018-12-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-12T15:59:28+08:00">
+                2018-10-12
               </time>
             
 
@@ -314,12 +349,45 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
           
 
           
+          
+             <span id="/2018/10/12/技术贴传送门/" class="leancloud_visitors" data-flag-title="技术贴传送门">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -343,7 +411,71 @@
       
         
           
-            
+            <h3 id="Block"><a href="#Block" class="headerlink" title="Block"></a>Block</h3><ul>
+<li><a href="http://www.narutoyq.cc/block-简介/" target="_blank" rel="noopener">http://www.narutoyq.cc/block-简介/</a></li>
+<li><a href="http://www.narutoyq.cc/block-局部变量/" target="_blank" rel="noopener">http://www.narutoyq.cc/block-局部变量/</a></li>
+<li><a href="http://www.narutoyq.cc/block-形参变量/" target="_blank" rel="noopener">http://www.narutoyq.cc/block-形参变量/</a></li>
+<li><a href="http://www.narutoyq.cc/block-成员变量/" target="_blank" rel="noopener">http://www.narutoyq.cc/block-成员变量/</a></li>
+<li><a href="http://www.narutoyq.cc/block-静态变量/" target="_blank" rel="noopener">http://www.narutoyq.cc/block-静态变量/</a></li>
+<li><a href="http://www.narutoyq.cc/block-block修饰符/" target="_blank" rel="noopener">http://www.narutoyq.cc/block-block修饰符/</a></li>
+<li><a href="http://www.narutoyq.cc/block-循环引用/" target="_blank" rel="noopener">http://www.narutoyq.cc/block-循环引用/</a></li>
+</ul>
+<h3 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h3><ul>
+<li><p><a href="http://xuyafei.cn/post/draft/ios-thread" target="_blank" rel="noopener">http://xuyafei.cn/post/draft/ios-thread</a></p>
+</li>
+<li><p>GCD</p>
+<p>  <a href="https://mp.weixin.qq.com/s/IeVG2V00zqH7UZh6AfyKnw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/IeVG2V00zqH7UZh6AfyKnw</a>  </p>
+</li>
+<li><p>iOS多线程：『NSOperation、NSOperationQueue』详尽总结</p>
+<p>  <a href="https://mp.weixin.qq.com/s/7lAWCUlq2V7_IQ1F7FnfcQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/7lAWCUlq2V7_IQ1F7FnfcQ</a></p>
+</li>
+</ul>
+<h3 id="Runloop"><a href="#Runloop" class="headerlink" title="Runloop"></a>Runloop</h3><ul>
+<li><p>深入理解runloop</p>
+<p> <a href="https://blog.ibireme.com/2015/05/18/runloop/" target="_blank" rel="noopener">https://blog.ibireme.com/2015/05/18/runloop/</a></p>
+</li>
+</ul>
+<h3 id="Runtime"><a href="#Runtime" class="headerlink" title="Runtime"></a>Runtime</h3><ul>
+<li><p>Runtime完美总结</p>
+<p>  <a href="https://www.jianshu.com/p/6b905584f536" target="_blank" rel="noopener">https://www.jianshu.com/p/6b905584f536</a></p>
+</li>
+<li><p>Associated Objects</p>
+<p>  <a href="http://esoftmobile.com/2014/02/18/associated-objects/" target="_blank" rel="noopener">http://esoftmobile.com/2014/02/18/associated-objects/</a></p>
+<p>  <a href="http://blog.leichunfeng.com/blog/2015/06/26/objective-c-associated-objects-implementation-principle/" target="_blank" rel="noopener">http://blog.leichunfeng.com/blog/2015/06/26/objective-c-associated-objects-implementation-principle/</a></p>
+</li>
+</ul>
+<h3 id="KVC-amp-KVO"><a href="#KVC-amp-KVO" class="headerlink" title="KVC &amp; KVO"></a>KVC &amp; KVO</h3><ul>
+<li><p>KVC</p>
+<p>  <a href="https://www.jianshu.com/p/45cbd324ea65" target="_blank" rel="noopener">https://www.jianshu.com/p/45cbd324ea65</a></p>
+</li>
+<li><p>KVO</p>
+<p>  <a href="https://www.jianshu.com/p/e59bb8f59302" target="_blank" rel="noopener">https://www.jianshu.com/p/e59bb8f59302</a></p>
+</li>
+</ul>
+<h3 id="事件的传递和响应"><a href="#事件的传递和响应" class="headerlink" title="事件的传递和响应"></a>事件的传递和响应</h3><ul>
+<li><p>史上最详细的iOS之事件的传递和响应机制</p>
+<p>  <a href="https://www.jianshu.com/p/2e074db792ba" target="_blank" rel="noopener">https://www.jianshu.com/p/2e074db792ba</a></p>
+<p>  <a href="https://www.jianshu.com/p/3e53d4d5f293" target="_blank" rel="noopener">https://www.jianshu.com/p/3e53d4d5f293</a></p>
+</li>
+</ul>
+<h3 id="源码解析"><a href="#源码解析" class="headerlink" title="源码解析"></a>源码解析</h3><ul>
+<li><p>Alamofire 的设计之道</p>
+<p><a href="https://juejin.im/entry/5947ae51a0bb9f006bdd3241" target="_blank" rel="noopener">https://juejin.im/entry/5947ae51a0bb9f006bdd3241</a></p>
+</li>
+<li><p>SRWebSocket源码浅析</p>
+<p><a href="https://www.jianshu.com/p/cdb7a886789a" target="_blank" rel="noopener">https://www.jianshu.com/p/cdb7a886789a</a></p>
+<h3 id="组件化"><a href="#组件化" class="headerlink" title="组件化"></a>组件化</h3><ul>
+<li><p>组件化方案探索</p>
+<p><a href="https://blog.cnbang.net/tech/3080/" target="_blank" rel="noopener">https://blog.cnbang.net/tech/3080/</a></p>
+</li>
+</ul>
+<h3 id="性能"><a href="#性能" class="headerlink" title="性能"></a>性能</h3><ul>
+<li>App 质量与性能如何保证</li>
+</ul>
+<p><a href="https://xiaozhuanlan.com/topic/2601359478" target="_blank" rel="noopener">https://xiaozhuanlan.com/topic/2601359478</a></p>
+</li>
+</ul>
+
           
         
       
@@ -386,20 +518,20 @@
   
   
 
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/12/09/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/10/12/iOS-9-10-11-12-适配/">
 
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wangpo">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="wangpo的个人博客">
     </span>
 
@@ -410,7 +542,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/12/09/hello-world/" itemprop="url">Hello World</a></h1>
+                <a class="post-title-link" href="/2018/10/12/iOS-9-10-11-12-适配/" itemprop="url">iOS_9_10_11_12_适配</a></h1>
         
 
         <div class="post-meta">
@@ -422,8 +554,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-09T15:25:48+08:00">
-                2018-12-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-12T15:45:23+08:00">
+                2018-10-12
               </time>
             
 
@@ -433,12 +565,45 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
           
 
           
+          
+             <span id="/2018/10/12/iOS-9-10-11-12-适配/" class="leancloud_visitors" data-flag-title="iOS_9_10_11_12_适配">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -462,16 +627,1399 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <h3 id="iOS9适配"><a href="#iOS9适配" class="headerlink" title="iOS9适配"></a>iOS9适配</h3><p>1、iOS9引入了新特性APP Transport Security(ATS),所以在Xcode7中发现网络访问失败。并输出错误信息<br><code>The resource could not be loaded because the App Transport Security policy requires the use of a secure connection</code></p>
+<p>新特性要求App内访问的网络必须使用 HTTPS 协议。</p>
+<p>但是现在公司的项目使用的是 HTTP 协议+HTTPS协议。</p>
+<p>最终找到以下解决办法：</p>
+<p>在Info.plist中添加 NSAppTransportSecurity 类型 Dictionary 。</p>
+<p>在 NSAppTransportSecurity 下添加 NSAllowsArbitraryLoads 类型 Boolean ,值设为 YES</p>
+<p>这样将撤回HTTP不安全请求。</p>
+<p>2、Bitcode</p>
+<p>iOS并不强制使用，但是Xcode7默认会开启Bitcode.</p>
+<p>解决方法一：更新第三方库library,使其包含Bitcode</p>
+<p>解决方法二：关闭Bitcode</p>
+<p>3、URL Scheme</p>
+<p>在iOS9中，如果使用URL scheme必须在”Info.plist”中将你要在外部调用的URL scheme列为白名单，否则不能使用。<br> <img src="/2018/10/12/iOS-9-10-11-12-适配/白名单.png"></p>
+<h3 id="iOS11适配"><a href="#iOS11适配" class="headerlink" title="iOS11适配"></a>iOS11适配</h3><p>1、添加启动图375<em>812@3x—1125</em>2436</p>
+<p>2、if (@available(iOS 11.0, *)) {<br>     self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;<br>} else {<br>     self.automaticallyAdjustsScrollViewInsets = NO;<br>}<br>3、<br>_tableView.estimatedRowHeight = 0;<br>_tableView.estimatedSectionHeaderHeight = 0;<br>_tableView.estimatedSectionFooterHeight = 0;</p>
+<p>4、横屏播放，自动隐藏homeIndicator</p>
+<ul>
+<li><p>(void)updateHomeIndicatorAutoHidden:(BOOL)hidden<br>{<br>  self.homeIndicatorAutoHidden = hidden;<br>  if (@available(iOS 11.0, *)) {</p>
+<pre><code>[self setNeedsUpdateOfHomeIndicatorAutoHidden];
+</code></pre><p>  }<br>}</p>
+</li>
+<li><p>(BOOL)prefersHomeIndicatorAutoHidden<br>{<br>  return self.homeIndicatorAutoHidden;<br>}</p>
+</li>
+</ul>
+<p>6、工具条不能被HomeIndicator遮盖<br> [self.commentBar mas_makeConstraints:^(MASConstraintMaker *make) {<br>        make.bottom.equalTo(self.view).offset(-SafeAreaBottomHeight);<br>        make.width.centerX.equalTo(self.view);<br>        make.height.mas_equalTo(BFSCommentBarHeight);<br>    }];</p>
+<p>7、宏定义</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#define VIEW_SAFE_AREA_INSETS(view) (&#123;UIEdgeInsets i; if(@available(iOS 11.0, *)) &#123;i = view.safeAreaInsets;&#125; else &#123;i = UIEdgeInsetsZero;&#125; i;&#125;)</span><br><span class="line"></span><br><span class="line">#define BFLStatusBarHeight      (isIPhoneX ? 44 : 20)</span><br><span class="line">#define BFLNavBarHeight         (isIPhoneX ? 88 : 64)</span><br><span class="line">#define BFLTabBarHeight         (isIPhoneX ? 83 : 49)</span><br><span class="line">#define SafeAreaBottomHeight    (isIPhoneX ? 34 :  0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#define KPlayerSmallWindowHeight   ((KPlayerSmallWindowWidth*(9.0/16.0) + (isIPhoneX ? 44 : 0))    //小屏播放器</span><br><span class="line"></span><br><span class="line">#define isIPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)</span><br><span class="line"></span><br><span class="line">iPhoneX的屏幕尺寸 375*812</span><br><span class="line">	竖屏安全区域（44，0，34，0）</span><br><span class="line">	横屏安全区域 （0，44，21，44）</span><br></pre></td></tr></table></figure>
 
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/10/12/iOS开发中遇到的问题汇总-持续更新/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangpo的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/10/12/iOS开发中遇到的问题汇总-持续更新/" itemprop="url">iOS开发中遇到的问题汇总-持续更新...</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-12T15:24:43+08:00">
+                2018-10-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/10/12/iOS开发中遇到的问题汇总-持续更新/" class="leancloud_visitors" data-flag-title="iOS开发中遇到的问题汇总-持续更新...">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h3 id="1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available"><a href="#1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available" class="headerlink" title="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available"></a>1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available</h3><p>分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。这是由于编译的时候选择的是 release，而 release 的时候是会做很多优化，导致上述结果。</p>
+<p>解决方法：把编译方式改为Debug。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/10/12/iOS开发中遇到的问题汇总-持续更新/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/10/09/耗电量优化/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangpo的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/10/09/耗电量优化/" itemprop="url">耗电量优化</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-09T17:35:41+08:00">
+                2018-10-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/10/09/耗电量优化/" class="leancloud_visitors" data-flag-title="耗电量优化">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="耗电模块"><a href="#耗电模块" class="headerlink" title="耗电模块"></a>耗电模块</h4><ol>
+<li>屏幕 （亮屏时间）</li>
+<li>CPU (复杂运算、无限循环导致CPU过载)</li>
+<li>网络 （网络请求、数据传输、网络切换、大量解析数据等）</li>
+<li>GPS</li>
+<li>Camera</li>
+</ol>
+<h4 id="电量优化最佳实践"><a href="#电量优化最佳实践" class="headerlink" title="电量优化最佳实践"></a>电量优化最佳实践</h4><ol>
+<li>网络相关</li>
+</ol>
+<ul>
+<li>发起网络请求时机。业务区分是否需要及时返回（下拉），还是可以延迟执行。</li>
+<li>减少网络被激活时间和次数。</li>
+<li>避免固定频繁的请求，返回数据相同或者无数据时，推迟下次请求时间。</li>
+<li>批处理，合并同一业务的多次请求。</li>
+<li>预处理，提前请求某些数据，防止后续频繁请求。</li>
+<li>数据处理</li>
+<li>网络数据传输前压缩处理</li>
+<li>大数据下载使用 <code>GZIP</code> 方式</li>
+<li>高效数据格式<code>JSON</code>&amp;<code>Protobuf</code></li>
+<li>慎用轮询方式执行网络请求，iOS采用APNs</li>
+<li>减少推送消息次数和频率</li>
+<li>处理具体业务前优先判断网络状态。移动网络下，减少数据传输或降低频率（wifi下网络传输       耗电远低于移动网络）；网络不可用下，尽早进入网络异常逻辑，避免不必要的运算</li>
+</ul>
+<ol start="2">
+<li>界面相关</li>
+</ol>
+<ul>
+<li>离开页面停止对应耗电活动</li>
+<li>进入后台，禁止异常消耗</li>
+</ul>
+<ol start="3">
+<li>定位相关</li>
+</ol>
+<ul>
+<li>及时关闭GPS,减少更新频率，根据实际情况切换GPS和网络，不要任何时候都同时使用。</li>
+<li>定位要求不高的业务场景，网络定位代替GPS</li>
+<li>慎用持续定位，使用一次定位接口即可</li>
+<li>慎用被动定位。</li>
+</ul>
+<ol start="4">
+<li>电池状态</li>
+</ol>
+<ul>
+<li>处理耗时耗电并且不紧急任务时（如更新包），优先判断电池电量，可以延迟到电量足时执行</li>
+<li>监听充电状态，来处理特定业务（更新包，log日志上传、用户数据同步），提高用户体验</li>
+</ul>
+<ol start="5">
+<li>消息广播</li>
+</ol>
+<ul>
+<li>灵活控制是否监听广播消息</li>
+</ul>
+<ol start="6">
+<li>H5界面</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/08/29/音视频之视频采集（GPUImage）过程/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangpo的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/29/音视频之视频采集（GPUImage）过程/" itemprop="url">音视频之视频采集（GPUImage）过程</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-29T18:12:27+08:00">
+                2018-08-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/HTML/" itemprop="url" rel="index">
+                    <span itemprop="name">HTML</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/08/29/音视频之视频采集（GPUImage）过程/" class="leancloud_visitors" data-flag-title="音视频之视频采集（GPUImage）过程">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+             <img src="/2018/08/29/音视频之视频采集（GPUImage）过程/1.jpg">
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">GPUImageVideoCamera *videoCamera;//采集器</span><br><span class="line">GPUImageFilter *filter;//滤镜（如果使用美颜功能，替换美颜相关滤镜，如GPUImageBeautyFilter）</span><br><span class="line">GPUImageFilter *output;//输出</span><br><span class="line">GPUImageView *gpuImageView;//OpenGL 采集绘制</span><br><span class="line">GPUImageAlphaBlendFilter *blendFilter;//混合滤镜</span><br><span class="line">GPUImageUIElement *uiElementInput;//贴图水印输入</span><br><span class="line">UIView *waterMarkView;//水印</span><br><span class="line">GPUImageMovieWriter *movieWriter;//保存本地</span><br><span class="line"></span><br><span class="line">/*伪代码*/</span><br><span class="line">[videoCamera addTarget:filter];</span><br><span class="line">if(/*添加水印*/)&#123;</span><br><span class="line">[filter addTarget:blendFilter];</span><br><span class="line">[uiElementInput addTarget:blendFilter];</span><br><span class="line">[blendFilter addTarget:gpuImageView];</span><br><span class="line">[blendFilter addTarget:output];</span><br><span class="line">[uiElementInput update];</span><br><span class="line">&#125; else&#123;</span><br><span class="line">[filter addTarget:output];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">[output addTarget:gpuImageView];//本地显示</span><br><span class="line">if(/*保存本地*/)&#123;</span><br><span class="line">[output addTarget:movieWriter];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[output setFrameProcessingCompletionBlock:^(GPUImageOutput *output, CMTime time) &#123;</span><br><span class="line">//处理采集数据</span><br><span class="line">CVPixelBufferRef pixelBuffer = [output.framebufferForOutput pixelBuffer];</span><br><span class="line">&#125;];</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/08/28/音视频之音频采集Audio-Unit/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangpo的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/28/音视频之音频采集Audio-Unit/" itemprop="url">音视频之音频采集Audio Unit</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-28T16:00:16+08:00">
+                2018-08-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/08/28/音视频之音频采集Audio-Unit/" class="leancloud_visitors" data-flag-title="音视频之音频采集Audio Unit">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="音频技术栈"><a href="#音频技术栈" class="headerlink" title="音频技术栈"></a>音频技术栈</h4><p>所有 iOS 音频技术都是基于 audio units。此处显示的更高级别的技术，如 Media Player，AV Foundation，OpenAL，AudioToolbox，是对 audio units 的封装，为特定的任务提供专用且简化的 API。</p>
+<img src="/2018/08/28/音视频之音频采集Audio-Unit/AudioUnit2.png">
+<p>当你需要实现以下需求时，不使用高级 API，直接使用 audio units</p>
+<ul>
+<li>低延时音频I/O，例如 VoIP 应用</li>
+<li>多路声音的合成回放，例如音乐游戏或合成乐器</li>
+<li>使用特定的 audio unit 特征，例如回声消除，混音，均衡器、混响等</li>
+<li>需要图状结构来处理音频，可将音频处理模块组装到图状结构中。</li>
+</ul>
+<h4 id="Audio-Unit工作方式"><a href="#Audio-Unit工作方式" class="headerlink" title="Audio Unit工作方式:"></a>Audio Unit工作方式:</h4><p>应用程序通过一个或者多个回调函数将音频发送到 graph 中的第一个音频单元，并对每一个音频单元进行单独控制。在 I/O unit 的输出(audio processing graph 中最后一个 audio unit)直接连接到输出硬件</p>
+<img src="/2018/08/28/音视频之音频采集Audio-Unit/AudioUnit1.png">
+<h4 id="Audio-Unit-分类"><a href="#Audio-Unit-分类" class="headerlink" title="Audio Unit 分类"></a>Audio Unit 分类</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">1. Effect Units</span><br><span class="line">	kAudioUnitType_Effect 主要提供声音特效处理</span><br><span class="line">	（均衡、压缩、混响...）</span><br><span class="line"></span><br><span class="line">2. Mixer Units</span><br><span class="line">	kAudioUnitType_Mixer 提供Mix多路声音的功能</span><br><span class="line"></span><br><span class="line">3. I/O Units</span><br><span class="line">	kAudioUnitType_Output I/O采集音频与播放音频功能</span><br><span class="line"></span><br><span class="line">4. Format Converter Units</span><br><span class="line">	kAudioUnitType_FormatConverter  格式转换 eg:采样格式Float转SInt16、交错或平铺、单双声道的转换</span><br><span class="line"></span><br><span class="line">5. Generator Units</span><br><span class="line">	kAudioUnitType_Generator 提供播放器功能</span><br></pre></td></tr></table></figure>
+<h4 id="Audio-Units-属性"><a href="#Audio-Units-属性" class="headerlink" title="Audio Units 属性"></a>Audio Units 属性</h4><p>设置属性，可以使用函数 AudioUnitSetProperty</p>
+<ul>
+<li>kAudioOutputUnitProperty_EnableIO 启用或禁止 I/O，默认输出开启，输入禁止。</li>
+<li>kAudioUnitProperty_ElementCount 配置元素个数</li>
+<li>kAudioUnitProperty_MaximumFramesPerSlice 设置 audio unit 的最大帧数</li>
+<li>kAudioUnitProperty_StreamFormat 指定输入 audio unit 输入输出元素的数据格式</li>
+</ul>
+<h5 id="Audio-Units的回调函数（AURenderCallback）"><a href="#Audio-Units的回调函数（AURenderCallback）" class="headerlink" title="Audio Units的回调函数（AURenderCallback）"></a>Audio Units的回调函数（AURenderCallback）</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">static OSStatus MyAURenderCallBack(void  *inRefCon,</span><br><span class="line">AudioUnitRenderActionFlags *ioActionFlags,</span><br><span class="line">const AudioTimeStamp       *inTimeStamp,</span><br><span class="line">UInt32                      inBusNumber,</span><br><span class="line">UInt32                      inNumberFrames,</span><br><span class="line">AudioBufferList            *ioData);</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>inRefCon，参数指向回调附加到 audio unit 输入时指定的编程上下文</p>
+</li>
+<li><p>ioActionFlags，参数允许提供提示当没有音频数据处理时，例如当你的应用程序是合成吉他，用户当面没有播放，请执行此操作。当你想要输出静音，可以在回调主体中使用如下语句：*ioActionFlags |= kAudioUnitRenderAction_OutputIsSilence，并且你必须明确地将 ioData 参数指向的缓冲区设置为0。</p>
+</li>
+<li>inTimeStamp，回调函数被触发时间，包含一个 AudioTimeStamp 结构体。</li>
+<li>inBusNumber，参数指示调用回调的音频单元总线</li>
+<li>inNumberFrames，当前调用的音频采样数</li>
+<li>ioData，指向音频数据缓存区</li>
+</ul>
+<h4 id="Audio-Units-结构图"><a href="#Audio-Units-结构图" class="headerlink" title="Audio Units 结构图"></a>Audio Units 结构图</h4><img src="/2018/08/28/音视频之音频采集Audio-Unit/AudioUnit3.png">
+<h4 id="I-O-Units-的基本特性"><a href="#I-O-Units-的基本特性" class="headerlink" title="I/O Units 的基本特性"></a>I/O Units 的基本特性</h4><img src="/2018/08/28/音视频之音频采集Audio-Unit/AudioUnit4.png">
+<ul>
+<li><p>Input element 和 Output element 都是 I/O unit 的一部分，可以将它们视为一个独立的个体，单独启动或禁止每一个 Element，默认情况下，Element 1 禁用，Element 0 开启。</p>
+</li>
+<li><p>音频输入硬件麦克风直接连着 Element 1， Element 1 的 Input scope 对你是不可见的，你首次访问硬件输入的音频数据是位于 Element 1 的 Output scope。</p>
+</li>
+<li><p>音频输出硬件扬声器直接连着 Element 0，Element 0 的 Output scope 对你是不可见的，数据从 Element 1 的 Output scope 传递到 Element 0 的 Input scope。</p>
+</li>
+</ul>
+<p>每一个 Element都有自己的 input scope 和 output scope，当描述 I/O unit 的时候可能会有困惑，相当于这样描述，你收到收据来自 input element 的 output scope，发送数据到 output element 的 input scope。<br>I/O unit 是唯一能够在 audio processing graph 中启动和停止音频流的 audio unit。I/O unit 负责在音频单元APP中的音频流。</p>
+<h4 id="构建Audio-Unit（以Remote-I-O-Unit为例子）"><a href="#构建Audio-Unit（以Remote-I-O-Unit为例子）" class="headerlink" title="构建Audio Unit（以Remote I/O Unit为例子）"></a>构建Audio Unit（以Remote I/O Unit为例子）</h4><p>直播中一般使用Remote I/O unit来进行采集工作</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line">#define kOutputBus 0</span><br><span class="line">#define kInputBus 1</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//配置会话相关</span><br><span class="line">AVAudioSession *session = [AVAudioSession sharedInstance];</span><br><span class="line">[session setPreferredSampleRate:44100 error:nil];</span><br><span class="line">[session setCategory:AVAudioSessionCategoryPlayAndRecord withOptions:AVAudioSessionCategoryOptionDefaultToSpeaker | AVAudioSessionCategoryOptionInterruptSpokenAudioAndMixWithOthers error:nil];</span><br><span class="line">[session setActive:YES error:nil];</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">// Describe audio component</span><br><span class="line">AudioComponentDescription acd;</span><br><span class="line">acd.componentType = kAudioUnitType_Output;</span><br><span class="line">acd.componentSubType = kAudioUnitSubType_RemoteIO;</span><br><span class="line">acd.componentManufacturer = kAudioUnitManufacturer_Apple;</span><br><span class="line">acd.componentFlags = 0;</span><br><span class="line">acd.componentFlagsMask = 0;</span><br><span class="line"></span><br><span class="line">// Get audio units</span><br><span class="line">AudioComponent  component = AudioComponentFindNext(NULL, &amp;acd);</span><br><span class="line"></span><br><span class="line">// Get audio units</span><br><span class="line">AudioComponentInstanceNew(component, &amp;_componetInstance);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">// 连接麦克风录音</span><br><span class="line">UInt32 flagOne = 1;</span><br><span class="line">AudioUnitSetProperty(self.componetInstance, kAudioOutputUnitProperty_EnableIO, kAudioUnitScope_Input, kInputBus, &amp;flagOne, sizeof(flagOne));</span><br><span class="line"></span><br><span class="line">// 连接扬声器播放</span><br><span class="line">AudioUnitSetProperty(self.componetInstance, kAudioOutputUnitProperty_EnableIO, kAudioUnitScope_Output, kOutputBus, &amp;flagOne, sizeof(flagOne));</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//配置麦克风输入的参数ASBD</span><br><span class="line">AudioStreamBasicDescription desc = &#123;0&#125;;</span><br><span class="line">desc.mSampleRate = 44100;//采样率</span><br><span class="line">desc.mFormatID = kAudioFormatLinearPCM;//编码格式</span><br><span class="line">desc.mFormatFlags = kAudioFormatFlagIsSignedInteger | kAudioFormatFlagsNativeEndian | kAudioFormatFlagIsPacked;//声音格式</span><br><span class="line">desc.mChannelsPerFrame = 2;// 每个Frame有几个channel</span><br><span class="line">desc.mFramesPerPacket = 1;//每个Packet有几Frame</span><br><span class="line">desc.mBitsPerChannel = 16;</span><br><span class="line">desc.mBytesPerFrame = desc.mBitsPerChannel / 8 * desc.mChannelsPerFrame;</span><br><span class="line">desc.mBytesPerPacket = desc.mBytesPerFrame * desc.mFramesPerPacket;</span><br><span class="line"></span><br><span class="line">//设置给输入端 配置麦克风输出的数据是什么格式</span><br><span class="line">AudioUnitSetProperty(self.componetInstance, kAudioUnitProperty_StreamFormat, kAudioUnitScope_Output, kInputBus, &amp;desc, sizeof(desc));</span><br><span class="line">//设置给输出端 配置扬声器输如的数据是什么格式</span><br><span class="line">AudioUnitSetProperty(self.componetInstance, kAudioUnitProperty_StreamFormat, kAudioUnitScope_Input, kOutputBus, &amp;desc, sizeof(desc));</span><br><span class="line"></span><br><span class="line">// 数据回调</span><br><span class="line">AURenderCallbackStruct cb;</span><br><span class="line">cb.inputProcRefCon = (__bridge void *)(self);</span><br><span class="line">cb.inputProc = handleInputBuffer;</span><br><span class="line">AudioUnitSetProperty(self.componetInstance, kAudioOutputUnitProperty_SetInputCallback, kAudioUnitScope_Global, kInputBus, &amp;cb, sizeof(cb));</span><br><span class="line"></span><br><span class="line">/*</span><br><span class="line"></span><br><span class="line">// Set output callback</span><br><span class="line">cb.inputProcRefCon = (__bridge void *)(self);</span><br><span class="line">cb.inputProc = handleOutputBuffer;</span><br><span class="line">AudioUnitSetProperty(self.componetInstance, kAudioOutputUnitProperty_SetInputCallback, kAudioUnitScope_Global, kOutputBus, &amp;cb, sizeof(cb));</span><br><span class="line"></span><br><span class="line">*/</span><br><span class="line"></span><br><span class="line">// Initialise</span><br><span class="line">status = AudioUnitInitialize(self.componetInstance);</span><br><span class="line">if (noErr != status) &#123;</span><br><span class="line">[self handleAudioComponentCreationFailure];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/08/23/MAC搭建基于Nginx的RTMP流媒体服务器/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangpo的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/23/MAC搭建基于Nginx的RTMP流媒体服务器/" itemprop="url">MAC搭建基于Nginx的RTMP流媒体服务器</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-23T17:51:02+08:00">
+                2018-08-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/08/23/MAC搭建基于Nginx的RTMP流媒体服务器/" class="leancloud_visitors" data-flag-title="MAC搭建基于Nginx的RTMP流媒体服务器">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <ul>
+<li>克隆nginx到本地</li>
+</ul>
+<p><code>bogon:~ wangpo$ brew tap denji/homebrew-nginx</code></p>
+<ul>
+<li>安装nginx</li>
+</ul>
+<p><code>bogon:~ wangpo$ brew install nginx-full --with-rtmp-module</code></p>
+<ul>
+<li>启动nginx服务</li>
+</ul>
+<p><code>bogon:~ wangpo$ nginx</code></p>
+<p>在浏览器里打开<a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a><br>如果出现Welcome to nginx!, 则表示安装成功<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/23/MAC搭建基于Nginx的RTMP流媒体服务器/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/08/17/Objective-C-Associated-Objects-的实现原理/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangpo的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/17/Objective-C-Associated-Objects-的实现原理/" itemprop="url">Objective-C Associated Objects 的实现原理</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-17T10:51:38+08:00">
+                2018-08-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/08/17/Objective-C-Associated-Objects-的实现原理/" class="leancloud_visitors" data-flag-title="Objective-C Associated Objects 的实现原理">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h4 id="相关函数"><a href="#相关函数" class="headerlink" title="相关函数"></a>相关函数</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//用于给对象添加关联对象，传入 nil 则可以移除已有的关联对象；</span><br><span class="line">* void objc_setAssociatedObject(id object, const void *key, id value,     objc_AssociationPolicy policy);</span><br><span class="line">//用于获取关联对象；</span><br><span class="line">* id objc_getAssociatedObject(id object, const void *key);</span><br><span class="line">//用于移除一个对象的所有关联对象</span><br><span class="line">* void objc_removeAssociatedObjects(id object);</span><br></pre></td></tr></table></figure>
+<h4 id="key-值"><a href="#key-值" class="headerlink" title="key 值"></a>key 值</h4><p>key 值必须保证是一个对象级别的唯一常量。<br>以下三种推荐的 key 值：</p>
+<ol>
+<li>声明 static char kAssociatedObjectKey; ，使用 &amp;kAssociatedObjectKey 作为 key 值;</li>
+<li>声明 static void *kAssociatedObjectKey = &kAssociatedObjectKey; ，使用 kAssociatedObjectKey 作为 key 值；</li>
+<li>用 selector ，使用 getter 方法的名称作为 key 值。</li>
+</ol>
+<h4 id="关联策略"><a href="#关联策略" class="headerlink" title="关联策略"></a>关联策略</h4><p>OBJC_ASSOCIATION_ASSIGN                         弱引用关联对象 </p>
+<p>OBJC_ASSOCIATION_RETAIN_NONATOMIC               强引用关联对象，且为非原子操作</p>
+<p>OBJC_ASSOCIATION_COPY_NONATOMIC               复制关联对象，且为非原子操作</p>
+<p>OBJC_ASSOCIATION_RETAIN                     强引用关联对象，且为原子操作</p>
+<p>OBJC_ASSOCIATION_COPY                      复制关联对象，且为原子操作</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/17/Objective-C-Associated-Objects-的实现原理/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/08/16/block嵌套时-weakify-self-，-strongify-self-的配对使用/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangpo的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/16/block嵌套时-weakify-self-，-strongify-self-的配对使用/" itemprop="url">block嵌套时 @weakify(self)，@strongify(self)的配对使用</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-16T16:28:26+08:00">
+                2018-08-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/08/16/block嵌套时-weakify-self-，-strongify-self-的配对使用/" class="leancloud_visitors" data-flag-title="block嵌套时 @weakify(self)，@strongify(self)的配对使用">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>关于block嵌套时，如何正确使用@weakify(self);和@strongify(self);来避免循环引用问题<br>分以下三种情况<br>1、局部变量嵌套局部变量 2、成员变量嵌套局部变量 3、成员变量嵌套成员变量</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    void(^_block)(void);//成员变量</span><br><span class="line">&#125;</span><br><span class="line">@property (nonatomic, copy) void(^nestedblock)(void);</span><br></pre></td></tr></table></figure>
+<h3 id="第1种情况，block和nestedBlock作为局部变量，内部使用self不会引起循环引用，所以不必使用-weakify-self-和-strongify-self"><a href="#第1种情况，block和nestedBlock作为局部变量，内部使用self不会引起循环引用，所以不必使用-weakify-self-和-strongify-self" class="headerlink" title="第1种情况，block和nestedBlock作为局部变量，内部使用self不会引起循环引用，所以不必使用@weakify(self);和@strongify(self)"></a>第1种情况，block和nestedBlock作为局部变量，内部使用self不会引起循环引用，所以不必使用@weakify(self);和@strongify(self)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">- (void)test1 &#123;</span><br><span class="line">   </span><br><span class="line">    void(^block)(void) = ^&#123;</span><br><span class="line">        [self doSomething];//强引用self,但是self不强引用block</span><br><span class="line">        void(^nestedBlock)(void) = ^&#123;</span><br><span class="line">            [self doSomethingElse];////强引用self,但是self不强引用nestedBlock</span><br><span class="line">        &#125;;</span><br><span class="line">        nestedBlock();</span><br><span class="line">    &#125;;</span><br><span class="line">    block();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="第2种情况，-block作为成员变量，内部使用self会引起循环引用，所以应该使用-weakify-self-和-strongify-self"><a href="#第2种情况，-block作为成员变量，内部使用self会引起循环引用，所以应该使用-weakify-self-和-strongify-self" class="headerlink" title="第2种情况，_block作为成员变量，内部使用self会引起循环引用，所以应该使用@weakify(self);和@strongify(self)"></a>第2种情况，_block作为成员变量，内部使用self会引起循环引用，所以应该使用@weakify(self);和@strongify(self)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">- (void)test2 &#123;</span><br><span class="line">    </span><br><span class="line">    @weakify(self)</span><br><span class="line">    _block = ^&#123;</span><br><span class="line">        @strongify(self);</span><br><span class="line">        [self doSomething];</span><br><span class="line">        void(^nestedBlock)(void) = ^&#123;</span><br><span class="line">            //@strongify(self);//nestedBlock作为局部变量，内部使用self不会引起循环引用，所以不必使用@weakify(self);和@strongify(self)</span><br><span class="line">            [self doSomethingElse];</span><br><span class="line">        &#125;;</span><br><span class="line">        nestedBlock();</span><br><span class="line">    &#125;;</span><br><span class="line">    _block();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="第3种情况，-block作为成员变量，内部使用self会引起循环引用，所以应该使用-weakify-self-和-strongify-self"><a href="#第3种情况，-block作为成员变量，内部使用self会引起循环引用，所以应该使用-weakify-self-和-strongify-self" class="headerlink" title="第3种情况，_block作为成员变量，内部使用self会引起循环引用，所以应该使用@weakify(self);和@strongify(self)"></a>第3种情况，_block作为成员变量，内部使用self会引起循环引用，所以应该使用@weakify(self);和@strongify(self)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">- (void)test3 &#123;</span><br><span class="line">    </span><br><span class="line">    @weakify(self)</span><br><span class="line">    _block = ^&#123;</span><br><span class="line">        @strongify(self);</span><br><span class="line">        [self doSomething];</span><br><span class="line">        //nestedblock的引用需要通过self.属性的方式来避免循环引用，如果直接用_nestedblock则会循环引用</span><br><span class="line">        self.nestedblock = ^&#123;</span><br><span class="line">            @strongify(self);//***注意此处可能有疑点，@strongify(self)是否需要。当你这样写完的时候，xcode就已经提示reatin cycle了，实际测试证明确实发生了循环引用。***</span><br><span class="line">            //所以此处需要添加@strongify(self);原因是block访问外部变量时会copy,此处如果不加@strongify(self);nestedblock内部指针会强引用self</span><br><span class="line">            [self doSomethingElse];</span><br><span class="line">        &#125;;</span><br><span class="line">        self.nestedblock();</span><br><span class="line">    &#125;;</span><br><span class="line">    _block();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- (void)doSomething&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (void)doSomethingElse&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/08/16/调用系统相机-相册代码片段/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wangpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wangpo的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/16/调用系统相机-相册代码片段/" itemprop="url">调用系统相机/相册代码片段</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-16T14:34:39+08:00">
+                2018-08-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/08/16/调用系统相机-相册代码片段/" class="leancloud_visitors" data-flag-title="调用系统相机/相册代码片段">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[self showActionSheet:@[@&quot;拍摄/上传&quot;,@&quot;从相册中选择照片&quot;] callBackBlock:^(NSString *item) &#123;</span><br><span class="line">           if ([item isEqualToString:@&quot;拍摄/上传&quot;]) &#123;</span><br><span class="line">               [self takePhotoWithCamer];</span><br><span class="line">           &#125;else if ([item isEqualToString:@&quot;从相册中选择照片&quot;]) &#123;</span><br><span class="line">               [self choosePhotoFromLibrary];</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;];</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">//弹出选项</span><br><span class="line">- (void)showActionSheet:(NSArray *)items callBackBlock:(void(^)(NSString *item))callBackBlock</span><br><span class="line">&#123;</span><br><span class="line">    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];</span><br><span class="line">    </span><br><span class="line">    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@&quot;取消&quot; style:UIAlertActionStyleCancel handler:nil];</span><br><span class="line">    [alertController addAction:cancelAction];</span><br><span class="line">    </span><br><span class="line">    for (NSString *item in items) &#123;</span><br><span class="line">        UIAlertAction *action = [UIAlertAction actionWithTitle:item style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">            if (callBackBlock) &#123;</span><br><span class="line">                callBackBlock(item);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;];</span><br><span class="line">        [alertController addAction:action];</span><br><span class="line">    &#125;</span><br><span class="line">    [self presentViewController:alertController animated:YES completion:nil];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">//使用相机拍照</span><br><span class="line">-(void)takePhotoWithCamer&#123;</span><br><span class="line">    if([self isCanUseCamera])&#123;</span><br><span class="line">        UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];</span><br><span class="line">        imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;</span><br><span class="line">        imagePicker.delegate = self;</span><br><span class="line">        imagePicker.allowsEditing = YES;</span><br><span class="line">        imagePicker.showsCameraControls = NO;</span><br><span class="line">        </span><br><span class="line">        UIView * customCameraView = [[UIView alloc] initWithFrame:[UIScreen  mainScreen].bounds];</span><br><span class="line">        UIButton * takePicture = [UIButton buttonWithType:UIButtonTypeCustom];</span><br><span class="line">        takePicture.frame = CGRectMake(0, SGFullScreenHeight-44, SGFullScreenWidth, 44);</span><br><span class="line">        [takePicture setTitle:@&quot;照相&quot; forState:UIControlStateNormal];</span><br><span class="line">        [takePicture sg_handleControlEvent:UIControlEventTouchUpInside withBlock:^(id sender) &#123;</span><br><span class="line">            [imagePicker takePicture];</span><br><span class="line">        &#125;];</span><br><span class="line">        [customCameraView addSubview:takePicture];</span><br><span class="line">        imagePicker.cameraOverlayView = customCameraView;</span><br><span class="line">        </span><br><span class="line">        CGSize screenSize = [[UIScreen mainScreen] bounds].size;</span><br><span class="line">        float aspectRatio = 4.0/3.0;</span><br><span class="line">        float scale = screenSize.height/screenSize.width * aspectRatio;</span><br><span class="line">        imagePicker.cameraViewTransform = CGAffineTransformMakeScale(scale, scale);</span><br><span class="line">        [self presentViewController:imagePicker animated: YES completion: nil];</span><br><span class="line">    &#125;else&#123;</span><br><span class="line">       //@&quot;无法使用相机, 请到 系统设置 -&gt; 隐私 -&gt; 相机 里启动权限&quot;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//判断相机是否可用</span><br><span class="line">-(BOOL)isCanUseCamera&#123;</span><br><span class="line">    AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];</span><br><span class="line">    if (authStatus == AVAuthorizationStatusRestricted || authStatus ==AVAuthorizationStatusDenied)&#123;</span><br><span class="line">        return NO;</span><br><span class="line">    &#125;else&#123;</span><br><span class="line">        return YES;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//从相册选照</span><br><span class="line">-(void)choosePhotoFromLibrary&#123;</span><br><span class="line">    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];</span><br><span class="line">    imagePicker.view.tintColor = self.view.tintColor;</span><br><span class="line">    imagePicker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;</span><br><span class="line">    imagePicker.allowsEditing = NO;</span><br><span class="line">    imagePicker.delegate = self;</span><br><span class="line">    [self presentViewController:imagePicker animated: true completion: nil];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">//选照完成</span><br><span class="line">-(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary&lt;NSString *,id&gt; *)info&#123;</span><br><span class="line">    UIImage *pickedImage = (UIImage *)info[UIImagePickerControllerOriginalImage];</span><br><span class="line">    //...</span><br><span class="line">    [self dismissViewControllerAnimated:YES completion:nil];</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//取消选择</span><br><span class="line">- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker&#123;</span><br><span class="line">    [picker dismissViewControllerAnimated:YES completion:nil];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
           
         
       
@@ -509,6 +2057,10 @@
   </section>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
 
 
           </div>
@@ -539,12 +2091,14 @@
 
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="wangpo">
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="wangpo" />
             
               <p class="site-author-name" itemprop="name">wangpo</p>
-              <p class="site-description motion-element" itemprop="description">iOS</p>
+              <p class="site-description motion-element" itemprop="description">移动开发</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -554,20 +2108,54 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">25</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/wangpo" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/wangpo1987" target="_blank" title="微博">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>微博</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -619,6 +2207,26 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      本站访客数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      本站总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
 
 
 
@@ -662,6 +2270,9 @@
 
 
 
+  
+  
+
 
 
 
@@ -698,6 +2309,16 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
   
 
 
@@ -764,11 +2385,435 @@
 
   
 
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
 
 
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("xMA1Uvqlgw1yeAGMLy8lXLlr-gzGzoHsz", "eKFlCFXTiQRPMHVEHX8krzpr");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
