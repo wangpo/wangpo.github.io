@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="知识点总结,">
 
 
 
@@ -79,16 +79,20 @@
 
 
 
-<meta name="description" content="iOS">
-<meta property="og:type" content="website">
-<meta property="og:title" content="wangpo的个人博客">
-<meta property="og:url" content="https://po1987.wang/index.html">
+<meta name="description" content="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。">
+<meta name="keywords" content="知识点总结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OS开发中遇到的问题汇总-持续更新">
+<meta property="og:url" content="https://po1987.wang/2018/12/22/OS开发中遇到的问题汇总-持续更新/index.html">
 <meta property="og:site_name" content="wangpo的个人博客">
-<meta property="og:description" content="iOS">
+<meta property="og:description" content="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://po1987.wang/2018/12/22/OS开发中遇到的问题汇总-持续更新/1.jpg">
+<meta property="og:updated_time" content="2018-12-22T07:53:42.222Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wangpo的个人博客">
-<meta name="twitter:description" content="iOS">
+<meta name="twitter:title" content="OS开发中遇到的问题汇总-持续更新">
+<meta name="twitter:description" content="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。">
+<meta name="twitter:image" content="https://po1987.wang/2018/12/22/OS开发中遇到的问题汇总-持续更新/1.jpg">
 
 
 
@@ -118,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="https://po1987.wang/">
+  <link rel="canonical" href="https://po1987.wang/2018/12/22/OS开发中遇到的问题汇总-持续更新/">
 
 
 
 
 
-  <title>wangpo的个人博客</title>
+  <title>OS开发中遇到的问题汇总-持续更新 | wangpo的个人博客</title>
   
 
 
@@ -153,8 +157,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -289,9 +292,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -321,9 +324,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/12/22/OS开发中遇到的问题汇总-持续更新/" itemprop="url">OS开发中遇到的问题汇总-持续更新</a></h1>
+          <h1 class="post-title" itemprop="name headline">OS开发中遇到的问题汇总-持续更新</h1>
         
 
         <div class="post-meta">
@@ -395,9 +396,7 @@
       
 
       
-        
-          
-            <h3 id="1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available"><a href="#1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available" class="headerlink" title="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available"></a>1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available</h3><p>分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。这是由于编译的时候选择的是 release，而 release 的时候是会做很多优化，导致上述结果。</p>
+        <h3 id="1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available"><a href="#1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available" class="headerlink" title="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available"></a>1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available</h3><p>分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。这是由于编译的时候选择的是 release，而 release 的时候是会做很多优化，导致上述结果。</p>
 <p>解决方法：把编译方式改为Debug。</p>
 <h3 id="2-解决标准时间个北京时间相差的8个小时"><a href="#2-解决标准时间个北京时间相差的8个小时" class="headerlink" title="2. 解决标准时间个北京时间相差的8个小时"></a>2. 解决标准时间个北京时间相差的8个小时</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];</span><br><span class="line">[dateFormatter setDateFormat:@&quot;yyyy-MM-dd HH:mm:ss&quot;];</span><br><span class="line">NSDate *date = [dateFormatter dateFromString:@&quot;2013-2-25 12:22:00&quot;];</span><br><span class="line"></span><br><span class="line">NSTimeZone *zone = [NSTimeZone systemTimeZone];</span><br><span class="line">NSInteger interval = [zone secondsFromGMTForDate:date];  </span><br><span class="line">NSDate *fireDate = [date dateByAddingTimeInterval: interval];</span><br><span class="line">NSLog(@&quot;%@&quot;,fireDate);</span><br></pre></td></tr></table></figure>
 <h3 id="3-自定义键盘展示收启动画"><a href="#3-自定义键盘展示收启动画" class="headerlink" title="3.自定义键盘展示收启动画"></a>3.自定义键盘展示收启动画</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];</span><br><span class="line">[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];</span><br><span class="line"></span><br><span class="line">- (void)keyboardWillShow:(NSNotification *)notification &#123;</span><br><span class="line"></span><br><span class="line">NSDictionary *userInfo = [notification userInfo];</span><br><span class="line">NSValue *animationDurationValue = [userInfo objectForKey:UIKeyboardAnimationDurationUserInfoKey];</span><br><span class="line">NSTimeInterval animationDuration;</span><br><span class="line">[animationDurationValue getValue:&amp;animationDuration];</span><br><span class="line"></span><br><span class="line">[UIView beginAnimations:nil context:nil];</span><br><span class="line">[UIView setAnimationDuration:animationDuration];</span><br><span class="line"></span><br><span class="line">NSValue* aValue = [userInfo objectForKey:UIKeyboardFrameEndUserInfoKey];</span><br><span class="line">CGRect keyboardRect = [aValue CGRectValue];</span><br><span class="line"></span><br><span class="line">CGRect rect = self.view.frame;</span><br><span class="line">rect.origin.y = -(keyboardRect.size.height-44);</span><br><span class="line">self.view.frame = rect;</span><br><span class="line">[UIView commitAnimations];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (void)keyboardWillHide:(NSNotification *)notification &#123;</span><br><span class="line">NSDictionary* userInfo = [notification userInfo];</span><br><span class="line"></span><br><span class="line">NSValue *animationDurationValue = [userInfo objectForKey:UIKeyboardAnimationDurationUserInfoKey];</span><br><span class="line">NSTimeInterval animationDuration;</span><br><span class="line">[animationDurationValue getValue:&amp;animationDuration];</span><br><span class="line"></span><br><span class="line">[UIView beginAnimations:nil context:nil];</span><br><span class="line">[UIView setAnimationDuration:animationDuration];</span><br><span class="line">self.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);</span><br><span class="line">[UIView commitAnimations];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -484,8 +483,6 @@ cd /Users/wangpo8/AwesomeProject
 Have an Android emulator running (quickest way to get started), or a device connected
 react-native run-android
 </code></pre>
-          
-        
       
     </div>
     
@@ -500,178 +497,36 @@ react-native run-android
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/10/11/历史博客链接/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="wangpo">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="wangpo的个人博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/10/11/历史博客链接/" itemprop="url">历史博客链接</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-11T15:26:58+08:00">
-                2018-10-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/iOS/" itemprop="url" rel="index">
-                    <span itemprop="name">iOS</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/知识点总结/" rel="tag"># 知识点总结</a>
           
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><a href="https://po1987.wang/2018/03/30/微信小程序初探/">https://po1987.wang/2018/03/30/微信小程序初探/</a></p>
-<p><a href="https://po1987.wang/2018/05/01/ReactiveCocoa教程-学习笔记1/">https://po1987.wang/2018/05/01/ReactiveCocoa教程-学习笔记1/</a></p>
-<p><a href="https://po1987.wang/2018/05/01/ReactiveCocoa教程-学习笔记2/">https://po1987.wang/2018/05/01/ReactiveCocoa教程-学习笔记2/</a></p>
-<p><a href="https://po1987.wang/2018/05/02/YYModel的实践/">https://po1987.wang/2018/05/02/YYModel的实践/</a></p>
-<p><a href="https://po1987.wang/2018/05/30/基于GitHub-Pages-Hexo-NexT搭建个人博客/">https://po1987.wang/2018/05/30/基于GitHub-Pages-Hexo-NexT搭建个人博客/</a></p>
-<p><a href="https://po1987.wang/2018/05/31/安装Cocoapods/">https://po1987.wang/2018/05/31/安装Cocoapods/</a></p>
-<p><a href="https://po1987.wang/2018/05/31/创建自己的CocoaPods私有库-公共库/">https://po1987.wang/2018/05/31/创建自己的CocoaPods私有库-公共库/</a></p>
-<p><a href="https://po1987.wang/2018/05/31/直播流程/">https://po1987.wang/2018/05/31/直播流程/</a></p>
-<p><a href="https://po1987.wang/2018/06/04/iOS性能优化初探/">https://po1987.wang/2018/06/04/iOS性能优化初探/</a></p>
-<p><a href="https://po1987.wang/2018/06/06/性能优化之ASDK-Texture/">https://po1987.wang/2018/06/06/性能优化之ASDK-Texture/</a></p>
-<p><a href="https://po1987.wang/2018/06/08/测试驱动开发（TDD）-XCTest/">https://po1987.wang/2018/06/08/测试驱动开发（TDD）-XCTest/</a></p>
-<p><a href="https://po1987.wang/2018/06/10/行为驱动开发（BDD）-Kiwi/">https://po1987.wang/2018/06/10/行为驱动开发（BDD）-Kiwi/</a></p>
-<p><a href="https://po1987.wang/2018/08/09/Runtime相关文章转载/">https://po1987.wang/2018/08/09/Runtime相关文章转载/</a><br><a href="https://po1987.wang/2018/08/10/RunLoop相关技术点/">https://po1987.wang/2018/08/10/RunLoop相关技术点/</a></p>
-<p><a href="https://po1987.wang/2018/08/12/类与对象基础数据结构/">https://po1987.wang/2018/08/12/类与对象基础数据结构/</a></p>
-<p><a href="https://po1987.wang/2018/08/16/block嵌套时-weakify-self-，-strongify-self-的配对使用/">https://po1987.wang/2018/08/16/block嵌套时-weakify-self-，-strongify-self-的配对使用/</a></p>
-<p><a href="https://po1987.wang/2018/08/16/调用系统相机-相册代码片段/">https://po1987.wang/2018/08/16/调用系统相机-相册代码片段/</a></p>
-<p><a href="https://po1987.wang/2018/08/17/Objective-C-Associated-Objects-的实现原理/">https://po1987.wang/2018/08/17/Objective-C-Associated-Objects-的实现原理/</a></p>
-<p><a href="https://po1987.wang/2018/08/23/MAC搭建基于Nginx的RTMP流媒体服务器/">https://po1987.wang/2018/08/23/MAC搭建基于Nginx的RTMP流媒体服务器/</a></p>
-<p><a href="https://po1987.wang/2018/08/28/音视频之音频采集Audio-Unit/">https://po1987.wang/2018/08/28/音视频之音频采集Audio-Unit/</a></p>
-<p><a href="https://po1987.wang/2018/08/29/音视频之视频采集（GPUImage）过程/">https://po1987.wang/2018/08/29/音视频之视频采集（GPUImage）过程/</a></p>
-<p><a href="https://po1987.wang/2018/10/09/耗电量优化/">https://po1987.wang/2018/10/09/耗电量优化/</a><br><a href="https://po1987.wang/2018/10/12/技术贴传送门/">https://po1987.wang/2018/10/12/技术贴传送门/</a></p>
-<p><a href="https://po1987.wang/2018/10/12/面试题汇总/">https://po1987.wang/2018/10/12/面试题汇总/</a></p>
-<p><a href="https://po1987.wang/2018/10/12/iOS-9-10-11-12-适配/">https://po1987.wang/2018/10/12/iOS-9-10-11-12-适配/</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/10/11/历史博客链接/" rel="next" title="历史博客链接">
+                <i class="fa fa-chevron-left"></i> 历史博客链接
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -681,10 +536,11 @@ react-native run-android
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -692,6 +548,10 @@ react-native run-android
 
 
           
+
+  
+
+
 
         </div>
         
@@ -712,8 +572,17 @@ react-native run-android
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -791,6 +660,22 @@ react-native run-android
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available"><span class="nav-number">1.</span> <span class="nav-text">1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-解决标准时间个北京时间相差的8个小时"><span class="nav-number">2.</span> <span class="nav-text">2. 解决标准时间个北京时间相差的8个小时</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-自定义键盘展示收启动画"><span class="nav-number">3.</span> <span class="nav-text">3.自定义键盘展示收启动画</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-XCODE8支持IOS7设备调试的方法"><span class="nav-number">4.</span> <span class="nav-text">4. XCODE8支持IOS7设备调试的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-检测项目中是否使用广告标示符IDFA"><span class="nav-number">5.</span> <span class="nav-text">5. 检测项目中是否使用广告标示符IDFA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-UITabBar顶部分割线问题"><span class="nav-number">6.</span> <span class="nav-text">6. UITabBar顶部分割线问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-ShareSDK—SMS-SDKv1-1-1版本替换问题"><span class="nav-number">7.</span> <span class="nav-text">7. ShareSDK—SMS_SDKv1.1.1版本替换问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-Objective-C-GCC-Code-Block-Evaluation-C-Extension-…-语法"><span class="nav-number">8.</span> <span class="nav-text">8. Objective-C GCC Code Block Evaluation C Extension ({…})语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-iOS9废弃设置状态栏颜色的方法"><span class="nav-number">9.</span> <span class="nav-text">9. iOS9废弃设置状态栏颜色的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-图文混排"><span class="nav-number">10.</span> <span class="nav-text">10. 图文混排</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-行间距"><span class="nav-number">11.</span> <span class="nav-text">11. 行间距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-RAC信号量"><span class="nav-number">12.</span> <span class="nav-text">12.RAC信号量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-git-clone遇到的坑"><span class="nav-number">13.</span> <span class="nav-text">13. git clone遇到的坑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-safari不能解析html代码"><span class="nav-number">14.</span> <span class="nav-text">14. safari不能解析html代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#15-iOS-crash-日志堆栈解析"><span class="nav-number">15.</span> <span class="nav-text">15. iOS crash 日志堆栈解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#16"><span class="nav-number">16.</span> <span class="nav-text">16.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#17-https-www-cnblogs-com-jgCho-p-5199834-html"><span class="nav-number">17.</span> <span class="nav-text">17. https://www.cnblogs.com/jgCho/p/5199834.html</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#18-NSStringDrawingTruncatesLastVisibleLine"><span class="nav-number">18.</span> <span class="nav-text">18. NSStringDrawingTruncatesLastVisibleLine</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#19-快捷键"><span class="nav-number">19.</span> <span class="nav-text">19. 快捷键</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#20"><span class="nav-number">20.</span> <span class="nav-text">20.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#21-static-vs-const"><span class="nav-number">21.</span> <span class="nav-text">21. static vs const</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22"><span class="nav-number">22.</span> <span class="nav-text">22.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23-安装-Homebrew"><span class="nav-number">23.</span> <span class="nav-text">23. 安装 Homebrew:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#24-关于短视频滚动列表，滑动slider不灵敏问题的解决办法"><span class="nav-number">24.</span> <span class="nav-text">24. 关于短视频滚动列表，滑动slider不灵敏问题的解决办法</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -938,6 +823,10 @@ react-native run-android
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="iOS,">
 
 
 
@@ -79,16 +79,20 @@
 
 
 
-<meta name="description" content="iOS">
-<meta property="og:type" content="website">
-<meta property="og:title" content="wangpo的个人博客">
-<meta property="og:url" content="https://po1987.wang/index.html">
+<meta name="description" content="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。">
+<meta name="keywords" content="iOS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="iOS开发中遇到的问题汇总-持续更新">
+<meta property="og:url" content="https://po1987.wang/2018/10/12/日常知识点积累/index.html">
 <meta property="og:site_name" content="wangpo的个人博客">
-<meta property="og:description" content="iOS">
+<meta property="og:description" content="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://po1987.wang/2018/10/12/日常知识点积累/1.jpg">
+<meta property="og:updated_time" content="2018-12-22T07:37:09.074Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wangpo的个人博客">
-<meta name="twitter:description" content="iOS">
+<meta name="twitter:title" content="iOS开发中遇到的问题汇总-持续更新">
+<meta name="twitter:description" content="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。">
+<meta name="twitter:image" content="https://po1987.wang/2018/10/12/日常知识点积累/1.jpg">
 
 
 
@@ -118,28 +122,18 @@
 
 
 
-  <link rel="canonical" href="https://po1987.wang/">
+  <link rel="canonical" href="https://po1987.wang/2018/10/12/日常知识点积累/">
 
 
 
 
 
-  <title>wangpo的个人博客</title>
+  <title>iOS开发中遇到的问题汇总-持续更新 | wangpo的个人博客</title>
   
 
 
 
 
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?d37199e5dd366c8870973c9601f7c02d";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 
 
 
@@ -153,8 +147,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -241,41 +234,9 @@
       
 
       
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
-            
-            搜索
-          </a>
-        </li>
-      
     </ul>
   
 
-  
-    <div class="site-search">
-      
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
-</div>
-
-
-
-    </div>
   
 </nav>
 
@@ -289,9 +250,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -304,7 +265,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/12/22/OS开发中遇到的问题汇总-持续更新/">
+    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/10/12/日常知识点积累/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wangpo">
@@ -321,9 +282,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/12/22/OS开发中遇到的问题汇总-持续更新/" itemprop="url">OS开发中遇到的问题汇总-持续更新</a></h1>
+          <h1 class="post-title" itemprop="name headline">iOS开发中遇到的问题汇总-持续更新</h1>
         
 
         <div class="post-meta">
@@ -335,8 +294,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-22T15:50:01+08:00">
-                2018-12-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-12T10:35:08+08:00">
+                2018-10-12
               </time>
             
 
@@ -345,28 +304,6 @@
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/iOS/" itemprop="url" rel="index">
-                    <span itemprop="name">iOS</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -395,9 +332,7 @@
       
 
       
-        
-          
-            <h3 id="1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available"><a href="#1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available" class="headerlink" title="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available"></a>1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available</h3><p>分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。这是由于编译的时候选择的是 release，而 release 的时候是会做很多优化，导致上述结果。</p>
+        <h3 id="1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available"><a href="#1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available" class="headerlink" title="1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available"></a>1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available</h3><p>分析：工程在编译之后被优化了，导致单步调试的时候程序表现异常，变量也都不能访问了。这是由于编译的时候选择的是 release，而 release 的时候是会做很多优化，导致上述结果。</p>
 <p>解决方法：把编译方式改为Debug。</p>
 <h3 id="2-解决标准时间个北京时间相差的8个小时"><a href="#2-解决标准时间个北京时间相差的8个小时" class="headerlink" title="2. 解决标准时间个北京时间相差的8个小时"></a>2. 解决标准时间个北京时间相差的8个小时</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];</span><br><span class="line">[dateFormatter setDateFormat:@&quot;yyyy-MM-dd HH:mm:ss&quot;];</span><br><span class="line">NSDate *date = [dateFormatter dateFromString:@&quot;2013-2-25 12:22:00&quot;];</span><br><span class="line"></span><br><span class="line">NSTimeZone *zone = [NSTimeZone systemTimeZone];</span><br><span class="line">NSInteger interval = [zone secondsFromGMTForDate:date];  </span><br><span class="line">NSDate *fireDate = [date dateByAddingTimeInterval: interval];</span><br><span class="line">NSLog(@&quot;%@&quot;,fireDate);</span><br></pre></td></tr></table></figure>
 <h3 id="3-自定义键盘展示收启动画"><a href="#3-自定义键盘展示收启动画" class="headerlink" title="3.自定义键盘展示收启动画"></a>3.自定义键盘展示收启动画</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];</span><br><span class="line">[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];</span><br><span class="line"></span><br><span class="line">- (void)keyboardWillShow:(NSNotification *)notification &#123;</span><br><span class="line"></span><br><span class="line">NSDictionary *userInfo = [notification userInfo];</span><br><span class="line">NSValue *animationDurationValue = [userInfo objectForKey:UIKeyboardAnimationDurationUserInfoKey];</span><br><span class="line">NSTimeInterval animationDuration;</span><br><span class="line">[animationDurationValue getValue:&amp;animationDuration];</span><br><span class="line"></span><br><span class="line">[UIView beginAnimations:nil context:nil];</span><br><span class="line">[UIView setAnimationDuration:animationDuration];</span><br><span class="line"></span><br><span class="line">NSValue* aValue = [userInfo objectForKey:UIKeyboardFrameEndUserInfoKey];</span><br><span class="line">CGRect keyboardRect = [aValue CGRectValue];</span><br><span class="line"></span><br><span class="line">CGRect rect = self.view.frame;</span><br><span class="line">rect.origin.y = -(keyboardRect.size.height-44);</span><br><span class="line">self.view.frame = rect;</span><br><span class="line">[UIView commitAnimations];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (void)keyboardWillHide:(NSNotification *)notification &#123;</span><br><span class="line">NSDictionary* userInfo = [notification userInfo];</span><br><span class="line"></span><br><span class="line">NSValue *animationDurationValue = [userInfo objectForKey:UIKeyboardAnimationDurationUserInfoKey];</span><br><span class="line">NSTimeInterval animationDuration;</span><br><span class="line">[animationDurationValue getValue:&amp;animationDuration];</span><br><span class="line"></span><br><span class="line">[UIView beginAnimations:nil context:nil];</span><br><span class="line">[UIView setAnimationDuration:animationDuration];</span><br><span class="line">self.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);</span><br><span class="line">[UIView commitAnimations];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -436,9 +371,9 @@
 <p>第二步：文本编辑 &gt; 偏好设置——在“打开和存储”栏目中，勾上“将HTML文件显示为HTML代码而不显示为格式化的文本”，勾掉“给纯文本文件添加.txt扩展名”。</p>
 <p>第三步：存储文件。这样得到的文件双击会在浏览器中以网页显示，右键选择“文本编辑（TextEdit）”打开时，会以代码格式显示，仍可继续编辑。</p>
 <h3 id="15-iOS-crash-日志堆栈解析"><a href="#15-iOS-crash-日志堆栈解析" class="headerlink" title="15. iOS crash 日志堆栈解析"></a>15. iOS crash 日志堆栈解析</h3><p><a href="https://mp.weixin.qq.com/s/6gyRe8EHIJzgutvQq01KEA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/6gyRe8EHIJzgutvQq01KEA</a></p>
-<h3 id="16"><a href="#16" class="headerlink" title="16."></a>16.</h3><img src="/2018/12/22/OS开发中遇到的问题汇总-持续更新/1.jpg">
+<h3 id="16"><a href="#16" class="headerlink" title="16."></a>16.</h3><img src="/2018/10/12/日常知识点积累/1.jpg">
 <h3 id="17-https-www-cnblogs-com-jgCho-p-5199834-html"><a href="#17-https-www-cnblogs-com-jgCho-p-5199834-html" class="headerlink" title="17. https://www.cnblogs.com/jgCho/p/5199834.html"></a>17. <a href="https://www.cnblogs.com/jgCho/p/5199834.html" target="_blank" rel="noopener">https://www.cnblogs.com/jgCho/p/5199834.html</a></h3><h3 id="18-NSStringDrawingTruncatesLastVisibleLine"><a href="#18-NSStringDrawingTruncatesLastVisibleLine" class="headerlink" title="18. NSStringDrawingTruncatesLastVisibleLine"></a>18. NSStringDrawingTruncatesLastVisibleLine</h3><p>富文本算高的时候，如果指定numberOfLines，当文本过多时，算出的高度为实际值，需要指定NSStringDrawingTruncatesLastVisibleLine</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">- (CGSize)sizeWithAttributedStr:(NSAttributedString *)str</span><br><span class="line">&#123;</span><br><span class="line">CGRect rect = [str boundingRectWithSize:(CGSize)&#123;SCREEN_WIDTH - _goodsView.right - 20, 40&#125;</span><br><span class="line">options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingTruncatesLastVisibleLine</span><br><span class="line">context:nil];</span><br><span class="line">return rect.size;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">- (CGSize)sizeWithAttributedStr:(NSAttributedString *)str</span><br><span class="line">&#123;</span><br><span class="line">    CGRect rect = [str boundingRectWithSize:(CGSize)&#123;SCREEN_WIDTH - _goodsView.right - 20, 40&#125;</span><br><span class="line">                                    options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingTruncatesLastVisibleLine</span><br><span class="line">                                    context:nil];</span><br><span class="line">    return rect.size;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="19-快捷键"><a href="#19-快捷键" class="headerlink" title="19. 快捷键"></a>19. 快捷键</h3><ul>
 <li><p>shift + command + o            快速定位文件</p>
 </li>
@@ -465,27 +400,16 @@
 <h3 id="24-关于短视频滚动列表，滑动slider不灵敏问题的解决办法"><a href="#24-关于短视频滚动列表，滑动slider不灵敏问题的解决办法" class="headerlink" title="24. 关于短视频滚动列表，滑动slider不灵敏问题的解决办法"></a>24. 关于短视频滚动列表，滑动slider不灵敏问题的解决办法</h3><ul>
 <li>由于UI给的thumbImage图片过小，默认UISlider开始拖动的手势范围只有thumbImage的大小之内.为了解决这个<br>问题需要创建一个子类继承于UISlider.重写其中的方法,将会增加Y轴方向thumbImage的触控范围</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">- (CGRect)thumbRectForBounds:(CGRect)bounds trackRect:(CGRect)rect value:(float)value</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">//y轴方向改变手势范围</span><br><span class="line"></span><br><span class="line">    rect.origin.y = rect.origin.y - 10;</span><br><span class="line">    </span><br><span class="line">    rect.size.height = rect.size.height + 20;</span><br><span class="line">    </span><br><span class="line">    return CGRectInset ([super thumbRectForBounds:bounds trackRect:rect value:value], 10 ,10);</span><br><span class="line">    </span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<pre><code>*   /* 直接拖动UISlider，此时touch时间在150ms以内，UIScrollView会认为是拖动自己，从而拦截了event，导致UISlider接受不到滑动的event。但是只要按住UISlider一会再拖动，此时此时touch时间超过150ms，因此滑动的event会发送到UISlider上。 */
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">- (CGRect)thumbRectForBounds:(CGRect)bounds trackRect:(CGRect)rect value:(float)value</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">//y轴方向改变手势范围</span><br><span class="line"></span><br><span class="line">    rect.origin.y = rect.origin.y - 10;</span><br><span class="line"></span><br><span class="line">    rect.size.height = rect.size.height + 20;</span><br><span class="line"></span><br><span class="line">    return CGRectInset ([super thumbRectForBounds:bounds trackRect:rect value:value], 10 ,10);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>/<em> 直接拖动UISlider，此时touch时间在150ms以内，UIScrollView会认为是拖动自己，从而拦截了event，导致UISlider接受不到滑动的event。但是只要按住UISlider一会再拖动，此时此时touch时间超过150ms，因此滑动的event会发送到UISlider上。 </em>/</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">- (UIView*)hitTest:(CGPoint)point withEvent:(UIEvent*)event &#123;</span><br><span class="line">  </span><br><span class="line">    UIView*view = [super hitTest:point withEvent:event];</span><br><span class="line">    if([view isKindOfClass:[UISlider class]]) &#123;</span><br><span class="line">        //如果响应view是UISlider,则scrollview禁止滑动</span><br><span class="line">        self.scrollEnabled = NO;</span><br><span class="line">    &#125;else&#123;</span><br><span class="line">        //如果不是,则恢复滑动</span><br><span class="line">        self.scrollEnabled = YES;</span><br><span class="line">    &#125;</span><br><span class="line">    return view;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="25-ReactNative"><a href="#25-ReactNative" class="headerlink" title="25 ReactNative"></a>25 ReactNative</h3><p>To run your app on iOS:<br>   cd /Users/wangpo8/AwesomeProject<br>   react-native run-ios</p>
+<ul>
+<li>or -<br>Open ios/AwesomeProject.xcodeproj in Xcode<br>Hit the Run button<br>To run your app on Android:<br>cd /Users/wangpo8/AwesomeProject<br>Have an Android emulator running (quickest way to get started), or a device connected<br>react-native run-android</li>
+</ul>
 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">    - (UIView*)hitTest:(CGPoint)point withEvent:(UIEvent*)event &#123;</span><br><span class="line">    </span><br><span class="line">    UIView*view = [super hitTest:point withEvent:event];</span><br><span class="line">    if([view isKindOfClass:[UISlider class]]) &#123;</span><br><span class="line">    //如果响应view是UISlider,则scrollview禁止滑动</span><br><span class="line">    self.scrollEnabled = NO;</span><br><span class="line">    &#125;else&#123;</span><br><span class="line">    //如果不是,则恢复滑动</span><br><span class="line">    self.scrollEnabled = YES;</span><br><span class="line">    &#125;</span><br><span class="line">    return view;</span><br><span class="line">    </span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-
-
-### 25 ReactNative
-To run your app on iOS:
-cd /Users/wangpo8/AwesomeProject
-react-native run-ios
-- or -
-Open ios/AwesomeProject.xcodeproj in Xcode
-Hit the Run button
-To run your app on Android:
-cd /Users/wangpo8/AwesomeProject
-Have an Android emulator running (quickest way to get started), or a device connected
-react-native run-android
-</code></pre>
-          
-        
       
     </div>
     
@@ -500,178 +424,36 @@ react-native run-android
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://po1987.wang/2018/10/11/历史博客链接/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="wangpo">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="wangpo的个人博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/10/11/历史博客链接/" itemprop="url">历史博客链接</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-11T15:26:58+08:00">
-                2018-10-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/iOS/" itemprop="url" rel="index">
-                    <span itemprop="name">iOS</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/iOS/" rel="tag"># iOS</a>
           
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><a href="https://po1987.wang/2018/03/30/微信小程序初探/">https://po1987.wang/2018/03/30/微信小程序初探/</a></p>
-<p><a href="https://po1987.wang/2018/05/01/ReactiveCocoa教程-学习笔记1/">https://po1987.wang/2018/05/01/ReactiveCocoa教程-学习笔记1/</a></p>
-<p><a href="https://po1987.wang/2018/05/01/ReactiveCocoa教程-学习笔记2/">https://po1987.wang/2018/05/01/ReactiveCocoa教程-学习笔记2/</a></p>
-<p><a href="https://po1987.wang/2018/05/02/YYModel的实践/">https://po1987.wang/2018/05/02/YYModel的实践/</a></p>
-<p><a href="https://po1987.wang/2018/05/30/基于GitHub-Pages-Hexo-NexT搭建个人博客/">https://po1987.wang/2018/05/30/基于GitHub-Pages-Hexo-NexT搭建个人博客/</a></p>
-<p><a href="https://po1987.wang/2018/05/31/安装Cocoapods/">https://po1987.wang/2018/05/31/安装Cocoapods/</a></p>
-<p><a href="https://po1987.wang/2018/05/31/创建自己的CocoaPods私有库-公共库/">https://po1987.wang/2018/05/31/创建自己的CocoaPods私有库-公共库/</a></p>
-<p><a href="https://po1987.wang/2018/05/31/直播流程/">https://po1987.wang/2018/05/31/直播流程/</a></p>
-<p><a href="https://po1987.wang/2018/06/04/iOS性能优化初探/">https://po1987.wang/2018/06/04/iOS性能优化初探/</a></p>
-<p><a href="https://po1987.wang/2018/06/06/性能优化之ASDK-Texture/">https://po1987.wang/2018/06/06/性能优化之ASDK-Texture/</a></p>
-<p><a href="https://po1987.wang/2018/06/08/测试驱动开发（TDD）-XCTest/">https://po1987.wang/2018/06/08/测试驱动开发（TDD）-XCTest/</a></p>
-<p><a href="https://po1987.wang/2018/06/10/行为驱动开发（BDD）-Kiwi/">https://po1987.wang/2018/06/10/行为驱动开发（BDD）-Kiwi/</a></p>
-<p><a href="https://po1987.wang/2018/08/09/Runtime相关文章转载/">https://po1987.wang/2018/08/09/Runtime相关文章转载/</a><br><a href="https://po1987.wang/2018/08/10/RunLoop相关技术点/">https://po1987.wang/2018/08/10/RunLoop相关技术点/</a></p>
-<p><a href="https://po1987.wang/2018/08/12/类与对象基础数据结构/">https://po1987.wang/2018/08/12/类与对象基础数据结构/</a></p>
-<p><a href="https://po1987.wang/2018/08/16/block嵌套时-weakify-self-，-strongify-self-的配对使用/">https://po1987.wang/2018/08/16/block嵌套时-weakify-self-，-strongify-self-的配对使用/</a></p>
-<p><a href="https://po1987.wang/2018/08/16/调用系统相机-相册代码片段/">https://po1987.wang/2018/08/16/调用系统相机-相册代码片段/</a></p>
-<p><a href="https://po1987.wang/2018/08/17/Objective-C-Associated-Objects-的实现原理/">https://po1987.wang/2018/08/17/Objective-C-Associated-Objects-的实现原理/</a></p>
-<p><a href="https://po1987.wang/2018/08/23/MAC搭建基于Nginx的RTMP流媒体服务器/">https://po1987.wang/2018/08/23/MAC搭建基于Nginx的RTMP流媒体服务器/</a></p>
-<p><a href="https://po1987.wang/2018/08/28/音视频之音频采集Audio-Unit/">https://po1987.wang/2018/08/28/音视频之音频采集Audio-Unit/</a></p>
-<p><a href="https://po1987.wang/2018/08/29/音视频之视频采集（GPUImage）过程/">https://po1987.wang/2018/08/29/音视频之视频采集（GPUImage）过程/</a></p>
-<p><a href="https://po1987.wang/2018/10/09/耗电量优化/">https://po1987.wang/2018/10/09/耗电量优化/</a><br><a href="https://po1987.wang/2018/10/12/技术贴传送门/">https://po1987.wang/2018/10/12/技术贴传送门/</a></p>
-<p><a href="https://po1987.wang/2018/10/12/面试题汇总/">https://po1987.wang/2018/10/12/面试题汇总/</a></p>
-<p><a href="https://po1987.wang/2018/10/12/iOS-9-10-11-12-适配/">https://po1987.wang/2018/10/12/iOS-9-10-11-12-适配/</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/10/历史博客链接/" rel="prev" title="历史博客链接">
+                历史博客链接 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -681,10 +463,11 @@ react-native run-android
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -692,6 +475,10 @@ react-native run-android
 
 
           
+
+  
+
+
 
         </div>
         
@@ -712,8 +499,17 @@ react-native run-android
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -752,7 +548,7 @@ react-native run-android
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -762,22 +558,6 @@ react-native run-android
 
           
 
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/wangpo" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i>GitHub</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://weibo.com/wangpo1987" target="_blank" title="微博">
-                      
-                        <i class="fa fa-fw fa-weibo"></i>微博</a>
-                  </span>
-                
-            </div>
           
 
           
@@ -791,6 +571,22 @@ react-native run-android
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’-was-compiled-with-optimization-stepping-may-behave-oddly-variables-may-not-be-available"><span class="nav-number">1.</span> <span class="nav-text">1. 调试的时候发现定义的局部变量始终为nil。在「lldb」中通过「po」命令来查看总是提示变量未找到。且编译的时候提示：‘XXXX’ was compiled with optimization - stepping may behave oddly; variables may not be available</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-解决标准时间个北京时间相差的8个小时"><span class="nav-number">2.</span> <span class="nav-text">2. 解决标准时间个北京时间相差的8个小时</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-自定义键盘展示收启动画"><span class="nav-number">3.</span> <span class="nav-text">3.自定义键盘展示收启动画</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-XCODE8支持IOS7设备调试的方法"><span class="nav-number">4.</span> <span class="nav-text">4. XCODE8支持IOS7设备调试的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-检测项目中是否使用广告标示符IDFA"><span class="nav-number">5.</span> <span class="nav-text">5. 检测项目中是否使用广告标示符IDFA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-UITabBar顶部分割线问题"><span class="nav-number">6.</span> <span class="nav-text">6. UITabBar顶部分割线问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-ShareSDK—SMS-SDKv1-1-1版本替换问题"><span class="nav-number">7.</span> <span class="nav-text">7. ShareSDK—SMS_SDKv1.1.1版本替换问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-Objective-C-GCC-Code-Block-Evaluation-C-Extension-…-语法"><span class="nav-number">8.</span> <span class="nav-text">8. Objective-C GCC Code Block Evaluation C Extension ({…})语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-iOS9废弃设置状态栏颜色的方法"><span class="nav-number">9.</span> <span class="nav-text">9. iOS9废弃设置状态栏颜色的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-图文混排"><span class="nav-number">10.</span> <span class="nav-text">10. 图文混排</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-行间距"><span class="nav-number">11.</span> <span class="nav-text">11. 行间距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-RAC信号量"><span class="nav-number">12.</span> <span class="nav-text">12.RAC信号量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-git-clone遇到的坑"><span class="nav-number">13.</span> <span class="nav-text">13. git clone遇到的坑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-safari不能解析html代码"><span class="nav-number">14.</span> <span class="nav-text">14. safari不能解析html代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#15-iOS-crash-日志堆栈解析"><span class="nav-number">15.</span> <span class="nav-text">15. iOS crash 日志堆栈解析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#16"><span class="nav-number">16.</span> <span class="nav-text">16.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#17-https-www-cnblogs-com-jgCho-p-5199834-html"><span class="nav-number">17.</span> <span class="nav-text">17. https://www.cnblogs.com/jgCho/p/5199834.html</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#18-NSStringDrawingTruncatesLastVisibleLine"><span class="nav-number">18.</span> <span class="nav-text">18. NSStringDrawingTruncatesLastVisibleLine</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#19-快捷键"><span class="nav-number">19.</span> <span class="nav-text">19. 快捷键</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#20"><span class="nav-number">20.</span> <span class="nav-text">20.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#21-static-vs-const"><span class="nav-number">21.</span> <span class="nav-text">21. static vs const</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22"><span class="nav-number">22.</span> <span class="nav-text">22.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23-安装-Homebrew"><span class="nav-number">23.</span> <span class="nav-text">23. 安装 Homebrew:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#24-关于短视频滚动列表，滑动slider不灵敏问题的解决办法"><span class="nav-number">24.</span> <span class="nav-text">24. 关于短视频滚动列表，滑动slider不灵敏问题的解决办法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#25-ReactNative"><span class="nav-number">25.</span> <span class="nav-text">25 ReactNative</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -870,8 +666,6 @@ react-native run-android
   
 
 
-  
-
 
 
 
@@ -912,11 +706,6 @@ react-native run-android
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
-  
-  
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
 
   
 
@@ -938,6 +727,10 @@ react-native run-android
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -980,323 +773,6 @@ react-native run-android
 
 
   
-
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
-
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
-
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
-
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
-
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url);
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
-
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
-
-                // show search results
-
-                if (isMatch) {
-                  // sort index by position of keyword
-
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
-
-                  // merge hits into slices
-
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
-
-                      // move to next position of hit
-
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
 
 
 
